@@ -19,7 +19,7 @@ elif [[ "$(uname)" == "Linux" ]]; then
 fi
 
 # Powerlevel10k config
-[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
+[[ -f "$HOME/.p10k.zsh" ]] && source "$HOME/.p10k.zsh"
 
 # zsh-autosuggestions
 if [[ "$(uname)" == "Darwin" ]] && command -v brew >/dev/null 2>&1; then
@@ -38,4 +38,4 @@ elif [[ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; th
 fi
 
 # Optional machine-specific config
-[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+[[ -f "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"

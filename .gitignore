@@ -1,0 +1,14 @@
+.DS_Store
+
+# Local/private configuration
+*.local
+.env
+.env.*
+
+# Secrets
+*.pem
+*.key
+
+# Shell-generated files
+.zsh_history
+.zsh_sessions/
